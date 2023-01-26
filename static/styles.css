@@ -1,4 +1,18 @@
-.logo {
-    height: 200px;
+* {
+    border: solid;
+    border-width: 1px;
+    border-color: red;
+}
 
+.logo {
+    height: 100px;
+    background-color: yellow;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.logo:hover {
+    height: 101px;
+    
 }
