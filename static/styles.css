@@ -1,7 +1,4 @@
 * {
-    /* border: solid;
-    border-width: 1px; */
-    /* border-color: red; */
     margin: 0px;
     font-family: 'Source Code Pro', monospace;
     color: rgb(205, 132, 68)
@@ -18,13 +15,18 @@
     padding: 5px;
     margin: 10px;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.2)
+    background-color: rgba(255, 255, 255, 0.864)
 }
 
-.logo:hover {
-    height: 101px;
-    background-color: rgba(255, 255, 255, 0.3);
+.link-logo {
+    height: 140px;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+
 }
+
 
 #logos {
     display: flex;
@@ -58,8 +60,12 @@
 }
 
 #skills {
-    margin-top: 68px;
+    margin-top: 88px;
     vertical-align: middle;
+    border-bottom: dotted;
+    border-width: 1px;
+    border-color: rgb(24, 148, 80);
+    padding-bottom: 150px;
 }
 
 #name {
@@ -116,3 +122,8 @@
 .lightyellow {
     color: rgb(241, 226, 113);
 }
+
+.purple {
+    color: rgb(188, 11, 188);
+}
+
