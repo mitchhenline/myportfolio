@@ -4,7 +4,7 @@
     /* border-color: red; */
     margin: 0px;
     font-family: 'Source Code Pro', monospace;
-    color: rgba(190, 164, 58)
+    color: rgb(205, 132, 68)
 }
 
 #main-body {
@@ -40,11 +40,15 @@
 .viddiv {
     display: flex;
     justify-content: center;
-    padding: 25px;
+    padding: 0px;
+    border: dotted;
+    margin-top: 30px;
+    margin-left: 30px;
+    
 }
 
 .project-div {
-    width: 50%;
+    width: 65%;
     margin: auto;
     margin-top: 68px;
 }
@@ -79,5 +83,36 @@
 #header {
     position: sticky;
     top: 0px;
-    background-color: rgb(57, 57, 57);
+    background-color: rgb(58, 58, 58);
+}
+
+.proj-desc {
+    padding-left: 30px;
+}
+.proj-desc-2 {
+    padding-left: 60px;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.lightblue {
+    color: lightskyblue;
+}
+
+.green {
+    color: rgb(24, 148, 80);
+}
+
+.blue {
+    color: rgb(70, 70, 245);
+}
+
+.white {
+    color: white;
+}
+
+.lightyellow {
+    color: rgb(241, 226, 113);
 }
