@@ -19,11 +19,11 @@
 }
 
 .link-logo {
-    height: 140px;
+    height: 70px;
     padding: 5px;
     margin: 10px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
 
 }
 
@@ -60,12 +60,21 @@
 }
 
 #skills {
-    margin-top: 88px;
+    margin-top: 80px;
     vertical-align: middle;
     border-bottom: dotted;
     border-width: 1px;
     border-color: rgb(24, 148, 80);
-    padding-bottom: 150px;
+    padding-bottom: 50px;
+}
+
+#bio {
+    margin-top: 60px;
+    vertical-align: middle;
+    border-bottom: dotted;
+    border-width: 1px;
+    border-color: rgb(24, 148, 80);
+    padding-bottom: 50px;
 }
 
 #name {
@@ -81,8 +90,12 @@
 }
 
 #links {
-    display: flex;
-    justify-content: center;
+    margin-top: 80px;
+    vertical-align: middle;
+    border-bottom: dotted;
+    border-width: 1px;
+    border-color: rgb(24, 148, 80);
+    padding-bottom: 50px;
     
 }
 
@@ -90,6 +103,10 @@
     position: sticky;
     top: 0px;
     background-color: rgb(58, 58, 58);
+}
+
+#myprojects {
+    font-size: 35px;
 }
 
 .proj-desc {
