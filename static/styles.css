@@ -5,10 +5,11 @@
 }
 
 #main-body {
-    background-image: url("/static/images/andrew-kliatskyi-ZceT2m9wV7w-unsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86)), url("/static/images/background.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
+
 
 .logo {
     height: 100px;
