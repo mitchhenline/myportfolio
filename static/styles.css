@@ -37,14 +37,10 @@
 
 #logos {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     margin: auto;
 }
 
-.title {
-    display: flex;
-    justify-content: center;
-}
 
 .viddiv {
     display: flex;
