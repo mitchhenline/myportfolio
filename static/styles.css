@@ -1,7 +1,17 @@
+
+
 * {
     margin: 0px;
     font-family: 'Source Code Pro', monospace;
-    color: rgb(205, 132, 68)
+    color: rgb(205, 132, 68);
+
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(58, 58, 58);
+    background-image: none;
 }
 
 #main-body {
@@ -102,11 +112,7 @@
     
 }
 
-#header {
-    position: sticky;
-    top: 0px;
-    background-color: rgb(58, 58, 58);
-}
+
 
 #myprojects {
     font-size: 35px;

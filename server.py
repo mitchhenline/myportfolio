@@ -12,5 +12,15 @@ def homepage():
     """view homepage"""
     return render_template("home.html")
 
+@app.route('/projects')
+def projects():
+    """view projects page"""
+    return render_template("projects.html")
+
+@app.route('/about_me')
+def about_me():
+    """view about me page"""
+    return render_template("about_me.html")
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
