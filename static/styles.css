@@ -24,9 +24,14 @@
     height:25px;
     top: 80px;
     display:flex;
+    justify-content: center;
     align-items: center;
     color: rgb(22, 175, 91);
 }
+  
+  .nav-link-ind {
+    margin: 0 50px;
+  }
 
 #main-body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86)), url("/static/images/background.jpg");
