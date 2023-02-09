@@ -12,6 +12,7 @@
     top: 0px;
     background-color: rgb(58, 58, 58);
     background-image: none;
+    
 }
 
 #main-body {
@@ -20,6 +21,9 @@
     background-attachment: fixed;
 }
 
+.list-header {
+    margin-top: 25px;
+}
 
 .logo {
     height: 100px;
@@ -38,7 +42,7 @@
 }
 
 #linkedinlogo {
-    margin-right: 75px;
+    margin-right: 40px;
 }
 
 #last-viddiv {
@@ -155,4 +159,8 @@
 
 #footer {
     background-color: black;
+}
+
+#githublogo {
+    margin-left: 150px;
 }
