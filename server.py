@@ -22,5 +22,10 @@ def about_me():
     """view about me page"""
     return render_template("about_me.html")
 
+@app.route('/games')
+def games():
+    "view games page"
+    return render_template("games.html")
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
